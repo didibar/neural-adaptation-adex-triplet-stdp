@@ -1,7 +1,5 @@
 # Neural Adaptation in an AdEx Network with t-STDP
 
-# Neural Adaptation in an AdEx Network with t-STDP
-
 This repository contains a simulation and analysis pipeline for recurrent spiking neural networks based on Adaptive Exponential Integrate-and-Fire (AdEx) neurons with triplet Spike-Timing-Dependent Plasticity (t-STDP).
 
 The study investigates whether structured input statistics induce neural adaptation and identifies the single-neuron response profiles that give rise to the resulting population-level adaptation.
@@ -369,9 +367,12 @@ de_optimizer.py
 If you use this code in a publication, please cite the associated manuscript.
 
 ```bibtex
-@misc{neural_adaptation_adex_triplet_stdp,
-  title  = {Emergent sharpening and fatiguing in a spiking associative memory model of visual priming},
-  author = {D. Bartolini, T.P. Reber, T. Tchumatchenko, M. Voigt},
-  year   = {2026}
-  }
+@article{Bartolini2026, 
+  author = {Bartolini, Diletta and Reber, Thomas P. and Tchumatchenko, Tatjana and Voigt, Matthias}, 
+  title = {Input-space geometry shapes adaptation dynamics underlying repetition suppression in a neural network model of relatedness priming}, 
+  year = {2026}, 
+  journal = {bioRxiv}, 
+  doi = {10.64898/2026.09.13.751213}, 
+  note = {Preprint} 
+}
 ```
